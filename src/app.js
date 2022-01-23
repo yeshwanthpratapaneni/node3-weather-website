@@ -5,6 +5,7 @@ import path from 'path'
 import hbs from 'hbs'
 
 const app = express()
+const port = process.env.PORT || 3000
 
 console.log(path.resolve())
 //console.log(path.join(path.resolve(),'../public'))
