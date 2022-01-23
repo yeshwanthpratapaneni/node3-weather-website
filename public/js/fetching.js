@@ -7,7 +7,6 @@ const search = document.querySelector('input')
 const message1 = document.querySelector('#message1')
 const message2 = document.querySelector('#message2')
 
-message1.textContent = 'Fuck off'
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
     const location = search.value
